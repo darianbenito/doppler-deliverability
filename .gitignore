@@ -349,3 +349,5 @@ docs/demo-cd-branches/dist
 wwwroot_extras/version.txt
 
 /Billing.API.Test/coverage.json
+
+/.vs/Deliverability.Jobs/v16/.suo
