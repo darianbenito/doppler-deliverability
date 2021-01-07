@@ -195,7 +195,7 @@ then
   platformSufix="-${platform}"
 fi
 # TODO expose version.txt as static file
-echo "${versionFull}-${platform}" > wwwroot_extras/version.txt
+#echo "${versionFull}-${platform}" > wwwroot_extras/version.txt
 
 docker build \
     -t "${imageName}:${canonicalTag}${platformSufix}" \
