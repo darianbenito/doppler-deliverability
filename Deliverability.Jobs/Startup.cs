@@ -44,7 +44,6 @@ namespace Deliverability.Jobs
                 app.UseSwaggerUI(c => c.SwaggerEndpoint("/swagger/v1/swagger.json", "Deliverability.Jobs v1"));
             }
 
-            app.UseHttpsRedirection();
 
             app.UseRouting();
 
