@@ -1,5 +1,6 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
+using System.Collections.Generic;
 
 namespace Deliverability.EmailAddressValidator.Controllers
 {
@@ -12,6 +13,12 @@ namespace Deliverability.EmailAddressValidator.Controllers
         public EmailAddressController(ILogger<EmailAddressController> logger)
         {
             _logger = logger;
+        }
+
+        [HttpGet]
+        public IEnumerable<string> Get()
+        {
+            return new List<string>() { "temp" };
         }
     }
 }
