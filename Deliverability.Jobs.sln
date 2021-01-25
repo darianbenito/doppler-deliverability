@@ -3,8 +3,6 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30717.126
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Deliverability.Jobs", "Deliverability.Jobs\Deliverability.Jobs.csproj", "{4D212250-D293-47B5-8213-C8B8C34C17BD}"
-EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Deliverability.EmailAddressValidator", "Deliverability.EmailAddressValidator\Deliverability.EmailAddressValidator.csproj", "{27024DA8-7CE5-4E2E-B8E7-5D96708A543D}"
 EndProject
 Global
@@ -13,10 +11,6 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{4D212250-D293-47B5-8213-C8B8C34C17BD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{4D212250-D293-47B5-8213-C8B8C34C17BD}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{4D212250-D293-47B5-8213-C8B8C34C17BD}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{4D212250-D293-47B5-8213-C8B8C34C17BD}.Release|Any CPU.Build.0 = Release|Any CPU
 		{27024DA8-7CE5-4E2E-B8E7-5D96708A543D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{27024DA8-7CE5-4E2E-B8E7-5D96708A543D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{27024DA8-7CE5-4E2E-B8E7-5D96708A543D}.Release|Any CPU.ActiveCfg = Release|Any CPU
